@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Dancing+Script:wght@400..700&family=Fleur+De+Leah&family=Imperial+Script&family=Style+Script&family=Updock&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: rgb(255, 250, 234);
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Imperial Script", cursive;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 70px;
+    font-size: 30px;
+    color: rgb(170, 132, 79);
+    flex-direction: column;
+    line-height: 40px
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+   height: 100px;
+    background-color: rgb(241, 228, 183);
+    width: 100%;
+}
+header img{
+    display: flex;
+    margin-top: 15px;
+    /* width: 300px; */
+    height: 240px;
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    gap: 100px;
+    margin-left: 250px;
+    color:rgb(170, 132, 79); 
+}
+.titulo p{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.sobrenos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sobrenos h1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 100px;
+    font-size: 45px;
+    color: rgb(170, 132, 79);
+    line-height: 40px
+}
+.sobrenos p{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-left: 140px;
+    margin-right: 140px;
+    color: rgb(170, 132, 79);
+}
+.sobrenos img{
+    display: flex;
+    height: 400px;
+    width: 550px;
+}

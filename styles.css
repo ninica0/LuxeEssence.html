@@ -15,6 +15,8 @@ h1{
     justify-content: center;
     align-items: center;
     font-family: "Imperial Script", cursive;
+    font-size: 60px;
+    margin-top: 60px;
 }
 
 .titulo{
@@ -54,37 +56,101 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
-    margin-left: 140px;
-    margin-right: 140px;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+   margin-bottom: 100px;
+   line-height: 40px
 }
 .sobrenos{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: end;
+    justify-content: end;
     flex-direction: column;
+  margin-right: 200px;
+ 
 }
 .sobrenos h1{
     display: flex;
-    align-items: center;
-    justify-content:center;
+    align-items: start;
+    justify-content:start;
     margin-top: 100px;
-    font-size: 45px;
+    font-size: 65px;
     color: rgb(170, 132, 79);
     line-height: 40px
 }
-.sobrenos p{
+
+
+  
+
+.sbn p{
     margin-top: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 140px;
     margin-right: 140px;
     color: rgb(170, 132, 79);
+    margin-bottom: 100px;
+    line-height: 40px
 }
-.sobrenos img{
+.sbn img{
     display: flex;
-    height: 400px;
-    width: 550px;
+    height: 420px;
+    width: 600px;
+  margin-bottom: 430px
+
+    
+}
+
+.sbn{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 140px;
+    margin-top: 30px;
+   
+}
+.produtos{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 130px;
+    
+}
+
+.produtos h1{
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    margin-top: 100px;
+    font-size: 65px;
+    color: rgb(170, 132, 79);
+    line-height: 40px;
+   margin-bottom: 50px;
+
+
+}
+
+.pdt{
+    margin-top: 55px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    font-size: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+    color: rgb(170, 132, 79);
+    gap: 30px;
+    line-height: 40px
+}
+
+.pdt img{
+    display: flex;
+    height: 500px;
+    width: 800px;
+margin-right: 20px;
 }

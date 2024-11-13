@@ -19,10 +19,16 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     font-family: "Poiret One", sans-serif;
     font-size: 45px;
     margin-left: 30px;
    
+=======
+    font-family: "Imperial Script", cursive;
+    font-size: 60px;
+    margin-top: 60px;
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463
 }
 
 main {
@@ -93,12 +99,20 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     font-size: 25px;
     margin-left: 30px;
     margin-right: 30px;
    margin-bottom: 300px;
    line-height: 40px
  
+=======
+    font-size: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+   margin-bottom: 100px;
+   line-height: 40px
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463
 }
 .sobrenos{
     display: flex;
@@ -114,15 +128,23 @@ nav a{
     justify-content:start;
     margin-top: 100px;
     font-size: 65px;
+<<<<<<< HEAD
     color: rgb(#ff0000);
+=======
+    color: rgb(170, 132, 79);
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463
     line-height: 40px
 }
 
 
+<<<<<<< HEAD
 
 
  
 
+=======
+  
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463
 
 .sbn p{
     margin-top: 55px;
@@ -132,7 +154,11 @@ nav a{
     font-size: 30px;
     margin-left: 140px;
     margin-right: 140px;
+<<<<<<< HEAD
     color: rgb(#516b70);
+=======
+    color: rgb(170, 132, 79);
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463
     margin-bottom: 100px;
     line-height: 40px
 }
@@ -142,11 +168,17 @@ nav a{
     width: 600px;
   margin-bottom: 430px
 
+<<<<<<< HEAD
 
    
 }
 
 
+=======
+    
+}
+
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463
 .sbn{
     display: flex;
     align-items:center;
@@ -162,26 +194,41 @@ nav a{
     justify-content: start;
     flex-direction: column;
     margin-left: 130px;
+<<<<<<< HEAD
    
 }
 
 
+=======
+    
+}
+
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463
 .produtos h1{
     display: flex;
     align-items: start;
     justify-content:start;
     margin-top: 100px;
     font-size: 65px;
+<<<<<<< HEAD
     color: #445972;
+=======
+    color: rgb(170, 132, 79);
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463
     line-height: 40px;
    margin-bottom: 50px;
 
 
+<<<<<<< HEAD
 
 
 }
 
 
+=======
+}
+
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463
 .pdt{
     margin-top: 55px;
     display: flex;
@@ -190,17 +237,25 @@ nav a{
     font-size: 30px;
     margin-left: 140px;
     margin-right: 140px;
+<<<<<<< HEAD
     color: rgb(#960d0d);
+=======
+    color: rgb(170, 132, 79);
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463
     gap: 30px;
     line-height: 40px
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463
 .pdt img{
     display: flex;
     height: 500px;
     width: 800px;
 margin-right: 20px;
+<<<<<<< HEAD
 }
 
 
@@ -242,3 +297,6 @@ margin-right: 20px;
     font-size: 25px;
   color: #516b70;
 }
+=======
+}
+>>>>>>> a6e2ac939182daac757604dbdaa5d4900bf3d463

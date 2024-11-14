@@ -4,14 +4,13 @@
 
 
 *{
-
+box-sizing: 0;
     padding: 0;
     margin: 0;
 }
 body{
     background-color: #ebe6e4;
     width: 100%;
-    
 }
 
 
@@ -22,7 +21,6 @@ h1{
     font-family: "Poiret One", sans-serif;
     font-size: 45px;
     margin-left: 30px;
-   
 }
 
 main {
@@ -105,11 +103,14 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    margin-top: 80px;
+    padding-left: 50px;
+    color: #598086;
 }
+
 .sobrenos img {
     width: 27%;
-    margin-left: 80px;
+    
     /* display: flex;
     width: 100%; */
 }
@@ -118,26 +119,39 @@ nav a{
     transform: rotate(-90deg);
     font-size: 70px;
     color:#598086;
-    margin-bottom: 190px;
+    align-items: center;
+    justify-content: center;
     
 }
 .sbn {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    gap: 50px;
+    color: #598086;
+}
+
+.teste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
 }
 
 .sbn p{
     display: flex;
-    align-items: end;
-    justify-content: end;
-    font-size: 27px;
-    width: 60%;
+    align-items: start;
+    justify-content: start;
+    font-size: 30px;
+    width: 650px;
 }
 .sbn img{
-    width: 40%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content:end;
+
 }
 
 .produtos{
@@ -145,7 +159,9 @@ nav a{
     align-items: start;
     justify-content: start;
     flex-direction: column;
-    margin-left: 130px;
+    margin-top: 100px;
+    background-color: #e0d3cc;
+    width: 100%;
    
 }
 
@@ -156,9 +172,10 @@ nav a{
     justify-content:start;
     margin-top: 100px;
     font-size: 65px;
-    color: #445972;
+    color: #598086;
     line-height: 40px;
-   margin-bottom: 50px;
+   margin-bottom: 30px;
+   margin-left: 140px;
 
 
 
@@ -167,51 +184,72 @@ nav a{
 
 
 .pdt{
-    margin-top: 55px;
+    margin-top: 10px;
     display: flex;
     align-items: start;
     justify-content: start;
     font-size: 30px;
     margin-left: 140px;
     margin-right: 140px;
-    color: rgb(#960d0d);
-    gap: 30px;
-    line-height: 40px
+    gap: 50px;
+    line-height: 40px;
+    color: #598086;
 }
 
 
 .pdt img{
     display: flex;
-    height: 500px;
-    width: 800px;
+    height: 550px;
+    width: 850px;
 margin-right: 20px;
+margin-bottom: 90px;
+border-radius: 20%;
+
 }
 
 
 .catalogo {
     display: flex;
     justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 70px;
+    /* display: flex;
+    flex-wrap: wrap; */
    
 }
 
 
 .cat{
+    color:#598086 ;
+    font-family: "Poiret One", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    margin-top:150px ;
 }
 
 
 .catalogo article img{
-    width: 320px;
-    height: 320px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
    
 }
 
+.item button{
+    border: none;
+   background-color: transparent;
+  
+}
+
+.item button:hover{
+   transform: scale(0.9);
+   opacity: 0.5s;
+   transition: 0.5s;
+   cursor: pointer;
+    
+
+}
 
 .item {
     display: flex;
@@ -219,10 +257,81 @@ margin-right: 20px;
     align-items: center;
     gap: 10px;
     justify-content: space-between;
-    flex-grow: 1;
-    flex-basis: 200;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    /* flex-grow: 1;
+    flex-basis: 200; */
 }
 .item p{
-    font-size: 25px;
+   
+    font-size: 20px;
   color: #516b70;
+  width: 50%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 170px;
+    width: 100%;
+    height: 200px;
+    justify-content: space-evenly;
+    background-color:#e0d3cc;
+   
+}
+
+footer img {
+    /* width: 450px; */
+    height: 200px;
+}
+
+
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.gmail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gmail img{
+    
+    height: 70px;
+}
+.zap{
+   display: flex;
+   justify-content: center;
+   justify-content: center;
+}
+.zap img{
+height: 90px;
+}
+.zap p{
+    margin-top: 40px;
+}
+
+.insta{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+
+.insta img{
+    
+    height: 30px;
+}
+
+
+@media  and (max-width: 1172px) {
+    .header, .sobrenos{
+        display:none;
 }

@@ -387,7 +387,7 @@ gap: 30px;
     }
     main {
         background-color: #ddcbc1;
-        height: 220px;
+        height: 280px;
         width: 405px;
     }
 .sobrenos{
@@ -395,7 +395,7 @@ gap: 30px;
     align-items: start;
     justify-content: start;
     flex-direction: column;
-    margin-top: 260px;
+    margin-top: 210px;
     width: 750px;
     margin-left: -40px;
     /* margin-left: 300px; */

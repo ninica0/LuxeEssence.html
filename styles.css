@@ -331,7 +331,7 @@ gap: 30px;
     height: 30px;
 }
 
- @media (max-width: 420px){
+ @media (max-width: 678px){
    
     nav{
    display: none;
@@ -420,8 +420,8 @@ gap: 30px;
     font-size: 20px;
     margin-left: 8px;
     margin-top: 20px;
-  
 }
+
 
 
  }

@@ -139,6 +139,7 @@ nav a{
     width: 700px;
 }
 
+
 .sbn p{
     display: flex;
     align-items: start;
@@ -335,23 +336,31 @@ gap: 30px;
     nav{
    display: none;
     }
-    .titulo {
+    .titulo img {
        display: flex;
         align-items: start;
         justify-content:start;
-        margin-top: 25px;
-        width: 604px;  
+        margin-top: -285px;
+        width: 405px;  
+    }
 
+    .titulo{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
     }
     header{
+        height: 50px;
         width: 405px;
     }
     header img{
         display: flex;
-        margin-top: 15px;
-        width: 300px;
-        height: 140px;
+        margin-top: 8px;
+        width: 150px;
+        height: 110px;
         margin-left: 0px;
+        margin-right: 500px;
     }
     body{
         display: flex;
@@ -367,12 +376,13 @@ gap: 30px;
     }
 
     .inicio p{
-        font-size: 16px;
+        font-size: 20px;
         width: 90%;
         line-height: 18px;
         /* margin-bottom: 300px; */
         margin-left: 15px;
         color:#516b70 ;
+        margin-top: -8px;
         
     }
     main {
@@ -381,6 +391,37 @@ gap: 30px;
         width: 405px;
     }
 .sobrenos{
-    margin-top: 500px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 260px;
+    width: 750px;
+    margin-left: -40px;
+    /* margin-left: 300px; */
 }
+.teste {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-left: 80px;
+}
+.teste h1{
+   margin-top: -200px;
+   margin-left: 100px;
+   font-size: 50px;
+}
+
+.sbn p{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 385px;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 20px;
+  
+}
+
+
  }

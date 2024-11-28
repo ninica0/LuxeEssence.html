@@ -10,10 +10,17 @@ text-decoration: none;
 header{
     width: 100%;
     height: 100px;
-    background-color: rgb(250, 247, 229);
+    background-color: rgba(255, 180, 180, 1);
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 91px;
+}
+
+header img{
+    width: 90px;
+    height: 70px;
+    
 }
 nav{
     display: flex;
@@ -21,14 +28,14 @@ nav{
     justify-content: center;
     gap: 100px;
     /* padding-top: 40px; */
-    background-color: rgb(232, 221, 189);
+    background-color: rgba(237, 154, 154, 1);
     width: 706px;
     height: 60px;
     border-radius: 20px;   
 }
 
 nav a{
-    color: rgb(105, 78, 18);
+    color: rgba(173, 89, 89, 1);
 }
 main{
     display: flex;
@@ -36,7 +43,7 @@ main{
     justify-content: center;
     gap: 30px;
     padding-top: 50px;
-    background-color: rgb(241, 233, 217);
+    background-color: rgba(241, 217, 217, 1);
     height: 480px;
 }
 main h1{
@@ -61,14 +68,14 @@ main p{
     justify-content: start;
     flex-direction: column;
     gap: 50px;
-    color: rgb(112, 85, 42);
+    color:rgba(173, 89, 89, 1);
 }
 
 .sobre{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 245, 229, 1);
+    background-color: rgba(255, 229, 229, 1);
     height: 550px;
     color: rgba(130, 48, 48, 1);
 }
@@ -94,7 +101,7 @@ main p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(255, 237, 222, 1);
+    background-color: rgba(255, 222, 222, 1);
     height: 750px;
     gap: 60px;
     color: rgb(141, 49, 0);
@@ -113,7 +120,7 @@ main p{
 button{
  font-size: 20px;
  border: none;
- background-color:rgba(224, 190, 169, 1);
+ background-color:rgba(224, 169, 169, 1);
  width: 140px;
  height: 63px;
  border-radius: 20px;
@@ -130,7 +137,7 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 70px;
-    background-color: rgba(255, 226, 201, 1);
+    background-color: rgba(255, 201, 201, 1);
     height: 140px;
     color: rgba(136, 42, 42, 1);
 }
@@ -139,11 +146,10 @@ footer img{
     width: 40px;
 }
 
-<<<<<<< HEAD
 footer p{
     font-size: 20px;
 }
-=======
+
 
 
 .contatos{
@@ -242,7 +248,7 @@ gap: 30px;
        
     }
     main {
-        background-color: #ddcbc1;
+        background-color: #ddc1c1;
         height: 420px;
         width: 420px;
     }
@@ -314,4 +320,4 @@ gap: 30px;
 }
 
  }
->>>>>>> 20baf4014ca7ee5da7937b55d63cdbdf20d7fecd
+

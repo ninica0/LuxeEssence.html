@@ -43,7 +43,7 @@ main{
     justify-content: center;
     gap: 30px;
     padding-top: 50px;
-    background-color: rgba(241, 217, 217, 1);
+    background-color: rgb(238, 206, 206);
     height: 480px;
 }
 main h1{
@@ -192,6 +192,7 @@ gap: 30px;
     height: 30px;
 }
 
+/*
  @media screen and (max-width: 420px){
    
     nav{
@@ -320,4 +321,4 @@ gap: 30px;
 }
 
  }
-
+  */

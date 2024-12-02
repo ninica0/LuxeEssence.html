@@ -48,7 +48,7 @@ main p{
     display: flex;
     align-items:start;
     justify-content: start;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
     width: 680px;
     height: 30px;
     padding-top: 15px;
@@ -63,9 +63,10 @@ main p{
     align-items: center;
     justify-content: center;
     padding-top: 30px;
+    gap: 30px;
 }
 .blaf img{
-    width: 850px;
+    width: 890px;
     height: 530px;
 }
 
@@ -73,7 +74,7 @@ main p{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 80px;
     gap: 30px;
 }
 .frete{
@@ -113,14 +114,59 @@ main p{
     align-items: center;
     justify-content: center;
     flex-direction: column; 
+    padding-bottom: 10px;
 }
 
 .cartao img{
-    width: 10px; 
+    width: 30px; 
+    padding-bottom: 10px;
 }
 
 .cartao p{
     width: 180px;
 }
 
+.produtos{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    gap: 64px;
+    padding-top: 90px;
+   
+}
 
+.protetor p{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.protetor img{
+    width: 300px;
+    height: 300px;
+}
+
+.serum p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.serum img{
+    width: 300px;
+    height: 300px;
+}
+
+.oil p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.oil img{
+    width: 300px;
+    height: 300px;
+}
+
+button{
+    border: 1px solid black;
+    background-color: transparent;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    
+}
